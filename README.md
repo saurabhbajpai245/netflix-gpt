@@ -12,6 +12,16 @@
 - Implement sign in user api
 - create react-store with user slice
 - Implemented Sign Out
+- Register TMDB api & create an app & get access
+- GET data from movie list of tmdv movie site
+- Custom hook for now playing movies
+- Update store with movie data
+- Planning for main container & secondry container
+- Fetch data for trailor video
+- Update store with trailor video data
+- Embeded the you tube video and make it auto play and mute
+- Tailwind classes to make it look awesome
+
 
 
 - Login/SignUp
