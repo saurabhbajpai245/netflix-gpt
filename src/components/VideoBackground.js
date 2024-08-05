@@ -8,10 +8,10 @@ const VideoBackground = ({id}) => {
     const trailorVideo = useSelector((store) => store.movies?.trailorVideo)
     useMovieTrailor(id);
   return (
-    <div className='absolute top-0'>  
-        <iframe className='w-screen aspect-video' src={"https://www.youtube.com/embed/" + trailorVideo?.key + "?&autoplay=1&mute=1"} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
+    <div className='absolute top-0 h-[618px]'>  
+        <iframe className='w-screen aspect-video h-[618px]' src={"https://www.youtube.com/embed/" + trailorVideo?.key + "?&autoplay=1&mute=1"} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin"></iframe>
     </div>
   )
 }
  
-export default VideoBackground
+export default VideoBackground;

@@ -21,6 +21,12 @@
 - Update store with trailor video data
 - Embeded the you tube video and make it auto play and mute
 - Tailwind classes to make it look awesome
+- Build secondry container
+- build movie list
+- build movie card
+- TMDB API image cdn 
+- Added new action for popular movies
+- usePopulare movie custom hook
 
 
 
